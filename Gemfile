@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'activerecord', '4.2.5', :require => 'active_record'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
+# gem 'database_cleaner-active_record',  git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'pry'
 gem 'pry-nav'
 gem 'rack-test'
@@ -15,3 +16,4 @@ gem 'sqlite3', '~>1.3.6'
 gem 'thin'
 gem 'tux'
 gem 'capybara'
+
